@@ -4,9 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- enlazamos un archivo de estilo externo a nuestro html -->
+    <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Titulo nivel 1</h1>
+  <header>
+    
+  </header>
+  <nav>
+    <a href="pages/productos.html">Página de productos</a>
+  </nav>
+  <h1>
+    PROYECTO 2 - LISTAS
+  </h1>
+  <hr>
+    <!-- Lista de compras desordenada -->
+    <h2>
+      Compras del Supermercado
+    </h2>
+    <hr>
+      <ul>
+        <li>Café</li>
+        <li>Café</li>
+        <li>Café</li>
+      </ul>
+    </hr>
+    <hr>
+      <h3>Lista de actividades</h3>
+      <ol>
+        <li>Lavar el Auto</li>
+        <li></li>
+        <li></li>
+      </ol>
+    </hr>
+    <!-- listas de definicion -->
+    <dl>
+      <dt>Argentina</dt>
+      <dd>Argentina es un pais</dd>
+      <dt>Brasil</dt>
+      <dd>Brasil es otro pais porque Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ea consequatur, blanditiis inventore nesciunt incidunt est, similique aliquam beatae ex, voluptate temporibus facere ipsam molestiae sunt maxime corrupti tempore? Quae.</dd> 
+    </dl>
+    <!-- formulario -->
+   
+   
+   
+    <form id="formularyxd">
+      <label for="">
+        Nombre
+      </label>
+      <input type="text" name="nombre" id="" placeholder="Poné tu nombre acá" required>
+      <br>
+      <label>
+        Apellido
+      </label>
+      <input type="text" name="apellido" minlength="4" maxlength="35">
+      <br>
+      <label>
+        E-Mail
+      </label>
+      <input type="email" name="email" id="email" autofocus pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
+      <label for="">Edad</label>
+      <input type="number" name="edad" min="10" max="100">
+      <br>
+      <label>Fecha</label>
+      <input type="date" min="1950-01-01" max="2023-05-30">
+      <label>
+        Password
+      </label>
+      <input type="password">
+      <label>
+        Provincia
+      </label>
+      <select name="provincia" id="provincia">
+        <optgroup>
+          <option value="Buenos Aires">Buenos Aires</option>
+          <option value="Buenos Aires">Santa Fe</option>
+          <option value="Buenos Aires">Tucumán</option>
+          <option value="Buenos Aires">San Juan</option>
+        </optgroup>
+      </select>
+      <br>
+      <label for="genero">Genero</label>
+      <div> 
+        <input type="radio" name="genero" value="femenino"> Femenino
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="otro"> Otro
+      </div>
+      <label for="aceptar">Acepto los terminos del envio</label>
+      <input type="checkbox" required autofocus value="acepto">
+      <br><label for="">Comentarios</label>
+      <br>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <div>
+        <input type="submit" value="Enviar Datos">
+      </div>
+    </form>
+  
+  
+  </main>
+  <footer>
+    <address>
+      <p>San Miguél de Tucumán</p>
+    </address>
+  </footer>
 </body>
 </html>
+<!-- https://www.w3.org/2009/cheatsheet/#search,nav -->
+<!-- https://www.w3.org/ -->
+<!-- https://developer.mozilla.org/es/docs/Web/HTML -->
+<!-- https://www.w3schools.com/ -->
