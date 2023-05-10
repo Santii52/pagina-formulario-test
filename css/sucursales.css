@@ -1,0 +1,26 @@
+/* SELECTOR GLOBAL PARA HTML, SIEMPRE CON ASTERISCO */
+* {
+
+}
+
+div {
+    background-color: yellowgreen;
+}
+
+/* SELECTOR DE CLASE, SIEMPRE CON UN "." PUNTO. Y NOMBRE DE LA CLASE AL INICIO! */
+.parrafo-2 {
+    color: green;
+}
+
+.texto-grande {
+    font-size: 35px;
+}
+
+/* SELECTOR DE ID'S! USAR SIEMPRE EL "HASHTAG" PARA ID'S ((USO UNICOOO, NO REUTILIZAR NI REPETIR!!!)) */
+#unico {
+    color: violet;
+}
+
+/* ID > CLASSES > TAGS */
+/* ID > CLASES > ETIQUETAS */
+/* ORDEN DE PRIORIDADES */

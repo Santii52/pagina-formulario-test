@@ -4,12 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Productos</title>
 </head>
-<body>
+<body style="background-color: cadetblue;">
     <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, libero, dolorem fugit autem quia nobis eveniet omnis nulla eaque vel excepturi laudantium <a href="/index.html"> FORM </a> reiciendis minima labore ad ipsam quae tenetur nihil?
     </p>
+    <h2>tablas en html</h2>
+<!-- TABLAS HTML -->
+    <table>
+      <caption>Informacion personal de los funcionarios</caption><!-- TITULO DE LA TABLA "CAPTION" -->
+      <thead><!-- CABECERA DE LA TABLA "THEAD" -->
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Apellido
+            </th>
+            <th>
+                DNI
+            </th>
+            <th>Foto de documento</th>
+        </tr>
+      </thead>
+      <tbody><!-- CUERPO DE LA TABLA "TBODY" -->
+        <tr>
+          <td>Pepe</td>
+          <td>Perez</td>
+          <td>125315234</td>
+          <td>
+            <img src="https://images.pushsquare.com/05126cf7358a6/1280x720.jpg" alt="doritosman xd" width="100px" height="100px">
+          </td>
+        </tr>
+        <tr>
+          <td>Mariano</td>
+          <td>Gomez</td>
+          <td>1231534</td>
+        </tr>
+        <!-- "nombre del elemento" * (cantidad numero) -->
+      </tbody>
+      <tfoot><!-- EL PIE DE LA TABLA "TFOOT" -->
+        <tr>
+          <td rowspan="2">Total:</td><!-- "ROWSPAN" ESPACIO DE FILAS  -->
+          <td colspan="2">123154</td><!-- "COLSPAN" ESPACIO DE COLUMNAS -->
+        </tr>
+        <tr>
+          <td>Otra Data</td>
+        </tr>
+      </tfoot>
+    </table>
+<!-- AQUI TERMINAN LAS TABLAS -->
 </body>
 </html>
